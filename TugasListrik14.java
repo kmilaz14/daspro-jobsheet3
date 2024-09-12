@@ -9,7 +9,7 @@ public class TugasListrik14 {
         double penggunaan = input.nextDouble();
 
         double totalTagihan = penggunaan * tarifPerKwh;
-        boolean melebihiBatas = penggunaan >= 500;
+        boolean melebihiBatas = penggunaan > 500;
 
         System.out.println("Total tagihan listrik: Rp " + totalTagihan);
         System.out.println("Apakah penggunaan melebihi 500 kWh? " + melebihiBatas);
